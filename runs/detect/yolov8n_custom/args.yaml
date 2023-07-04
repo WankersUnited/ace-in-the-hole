@@ -1,13 +1,13 @@
 task: detect
 mode: train
 model: yolov8n.pt
-data: /content/ace-in-the-hole/datasets/data.yaml
-epochs: 10
+data: C:\Users\User\Desktop\Coding\WankersUnited\ace-in-the-hole/datasets/data.yaml
+epochs: 300
 patience: 50
 batch: 8
 imgsz: 416
 save: true
-save_period: -1
+save_period: 10
 cache: false
 device: null
 workers: 8
@@ -94,4 +94,4 @@ copy_paste: 0.0
 cfg: null
 v5loader: false
 tracker: botsort.yaml
-save_dir: runs/detect/yolov8n_custom
+save_dir: runs\detect\yolov8n_custom
